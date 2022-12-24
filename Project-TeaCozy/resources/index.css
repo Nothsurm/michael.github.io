@@ -1,0 +1,149 @@
+* {
+    font-family: Helvetica;
+    
+    color: seashell;
+    background-color: black;
+
+    opacity: 0.9;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.logo {
+    padding-left: 10px;
+    height: 50px;
+    align-items: center;
+    float: left;
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+.main {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url(../resources/imgHead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main_text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    padding: 5px;
+}
+
+.content {
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content_text {
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+.image_grid {
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    margin: 30px 0;
+}
+
+span {
+    text-align: center;
+}
+
+.location {
+    height: 500px;
+    background-image: url(../resources/imgLocations.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 1200px;
+}
+
+.locations {
+    padding-top: 30px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-flex ul {
+    width: 300px;
+    padding: 40px;
+    margin-top: 100px;
+
+}
+
+.display-flex ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.bottom {
+    margin-top: 20px;
+    height: 200px;
+}
+
+.contact {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer {
+    float: left;
+    margin-left: 20px
+}
+
+
+
+
+
+
+
+
+
